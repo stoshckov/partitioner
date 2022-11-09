@@ -42,3 +42,4 @@ SED_STRING="$SED_STRING$TAIL"
 sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | fdisk ${TGTDEV}
   $SED_STRING
 EOF
+#last Nov 08 2022
